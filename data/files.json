@@ -1,176 +1,32 @@
-/* ===== GENERAL ===== */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:'Poppins',sans-serif;
-    background:#f4f7fb;
-    color:#333;
-}
-
-/* ===== HEADER ===== */
-
-.header{
-    background:#0B5ED7;
-    color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 8%;
-    position:sticky;
-    top:0;
-}
-
-.logo{
-    font-size:24px;
-    font-weight:700;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:25px;
-    font-weight:500;
-    transition:.3s;
-}
-
-nav a:hover{
-    color:#FFD54F;
-}
-
-/* ===== HERO ===== */
-
-.hero{
-    text-align:center;
-    padding:80px 20px;
-    background:linear-gradient(135deg,#0B5ED7,#4A90E2);
-    color:white;
-}
-
-.hero h1{
-    font-size:46px;
-    margin-bottom:10px;
-}
-
-.hero h2{
-    font-size:30px;
-    font-weight:500;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:750px;
-    margin:auto;
-    line-height:1.8;
-    font-size:18px;
-}
-
-.hero button{
-    margin-top:35px;
-    padding:14px 35px;
-    background:white;
-    color:#0B5ED7;
-    border:none;
-    border-radius:8px;
-    font-size:17px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-.hero button:hover{
-    transform:scale(1.05);
-}
-
-/* ===== DASHBOARD ===== */
-
-.dashboard{
-    width:90%;
-    max-width:1200px;
-    margin:50px auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background:white;
-    padding:35px;
-    border-radius:15px;
-    text-align:center;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
-
-.card h2{
-    font-size:42px;
-    color:#0B5ED7;
-}
-
-.card p{
-    margin-top:10px;
-    color:#666;
-}
-
-/* ===== LATEST ===== */
-
-.latest{
-    width:90%;
-    max-width:1200px;
-    margin:50px auto;
-}
-
-.latest h2{
-    margin-bottom:20px;
-    color:#0B5ED7;
-}
-
-/* Placeholder */
-
-#resourceList{
-    background:white;
-    padding:40px;
-    border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
-
-/* ===== FOOTER ===== */
-
-footer{
-    margin-top:70px;
-    background:#0B5ED7;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-/* ===== MOBILE ===== */
-
-@media(max-width:768px){
-
-.header{
-    flex-direction:column;
-    gap:15px;
-}
-
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
-
-nav a{
-    margin:8px;
-}
-
-.hero h1{
-    font-size:34px;
-}
-
-.hero h2{
-    font-size:24px;
-}
-
-}
+[
+  {
+    "title": "Anecdotal Record Template",
+    "category": "Templates",
+    "type": "word",
+    "file": "files/Anecdotal_Record_Template.docx"
+  },
+  {
+    "title": "Form 6",
+    "category": "School Forms",
+    "type": "excel",
+    "file": "files/Form-6.xlsx"
+  },
+  {
+    "title": "Incident Report",
+    "category": "School Forms",
+    "type": "word",
+    "file": "files/Incident_Report.docx"
+  },
+  {
+    "title": "Grade 7 DLL Week 1",
+    "category": "Lesson Plans",
+    "type": "word",
+    "file": "files/Grade7_DLL_Week1.docx"
+  },
+  {
+    "title": "TLE Learning Activity",
+    "category": "TLE Resources",
+    "type": "pdf",
+    "file": "files/TLE_Activity.pdf"
+  }
+]
