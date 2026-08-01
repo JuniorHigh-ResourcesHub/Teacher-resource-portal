@@ -403,3 +403,22 @@ nav{
 #resources {
     scroll-margin-top: 100px;
 }
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card,
+.dark-mode .announcement-card,
+.dark-mode .featured-card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .header {
+    background-color: #000;
+}
+
+.dark-mode a {
+    color: white;
+}
