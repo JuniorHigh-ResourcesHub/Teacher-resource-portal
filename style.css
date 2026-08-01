@@ -281,3 +281,65 @@ background:#0B5ED7;
 color:white;
 
 }
+/* ===== ANNOUNCEMENTS ===== */
+
+.announcements{
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:20px;
+
+width:90%;
+
+max-width:1200px;
+
+margin:40px auto;
+
+}
+
+.announcement-card,
+.featured-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.announcement-card ul{
+
+margin-top:15px;
+
+padding-left:20px;
+
+}
+
+.announcement-card li{
+
+margin-bottom:10px;
+
+}
+
+.featured-card h3{
+
+color:#0B5ED7;
+
+margin:15px 0;
+
+}
+
+@media(max-width:768px){
+
+.announcements{
+
+grid-template-columns:1fr;
+
+}
+
+}
