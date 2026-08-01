@@ -45,7 +45,7 @@ function displayResources(keyword=""){
 
         <div class="resource-card">
 
-            <h3>${getIcon(resource.type)} ${resource.title}</h3>
+            <h3>  ${getIcon(resource.type)}  ${resource.title}  <span class="file-badge ${resource.type.toLowerCase()}">  ${resource.type.toUpperCase()}  </span>  </h3>
 
             <p><strong>Category:</strong> ${resource.category}</p>
 
