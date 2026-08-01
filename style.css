@@ -366,3 +366,34 @@ nav{
 }
 
 }
+/* ===== TOOLBAR ===== */
+
+.toolbar{
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:20px;
+}
+
+#sortSelect{
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+/* ===== FILE BADGES ===== */
+
+.file-badge{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+    color:white;
+    margin-left:8px;
+    font-weight:600;
+}
+
+.word{background:#2B579A;}
+.pdf{background:#E53935;}
+.excel{background:#1D6F42;}
+.powerpoint{background:#D24726;}
