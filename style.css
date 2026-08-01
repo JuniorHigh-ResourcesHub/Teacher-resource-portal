@@ -422,3 +422,14 @@ nav{
 .dark-mode a {
     color: white;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+#home,
+#about,
+#contact,
+#announcements,
+#resources {
+    scroll-margin-top: 100px;
+}
