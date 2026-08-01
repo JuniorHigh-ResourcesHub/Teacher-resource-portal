@@ -1,92 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher Resource Portal</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lucban Integrated School Teacher Resource Portal</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header class="header">
 
-    <div class="logo">
-        🏫 Teacher Resource Portal
-    </div>
+<div class="logo">
+🏫 Teacher Resource Portal
+</div>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Resources</a>
-        <a href="#">Announcements</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Resources</a>
+<a href="#">Announcements</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</nav>
 
 </header>
+
+<!-- Categories -->
+
 <div class="categories">
 
-<button class="category-btn active" data-category="All">
-All Resources
-</button>
-
-<button class="category-btn" data-category="School Forms">
-School Forms
-</button>
-
-<button class="category-btn" data-category="Lesson Plans">
-Lesson Plans
-</button>
-
-<button class="category-btn" data-category="Templates">
-Templates
-</button>
-
-<button class="category-btn" data-category="TLE Resources">
-TLE Resources
-</button>
-
-<button class="category-btn" data-category="Research">
-Research
-</button>
+<button class="category-btn active" data-category="All">All Resources</button>
+<button class="category-btn" data-category="School Forms">School Forms</button>
+<button class="category-btn" data-category="Lesson Plans">Lesson Plans</button>
+<button class="category-btn" data-category="Templates">Templates</button>
+<button class="category-btn" data-category="TLE Resources">TLE Resources</button>
+<button class="category-btn" data-category="Research">Research</button>
 
 </div>
+
+<!-- Hero -->
+
 <section class="hero">
+
+<img src="images/logo.png"
+class="school-logo"
+alt="School Logo">
+
+<h1>Lucban Integrated School</h1>
+
+<h2>Teacher Resource Portal</h2>
+
+<p>
+
+One-stop portal for school forms,
+lesson plans,
+memoranda,
+templates,
+learning resources,
+and downloadable teaching materials.
+
+</p>
+
+<a href="#resourceList" class="browse-btn">
+
+Browse Resources
+
+</a>
+
+</section>
+
+<!-- Banner -->
+
 <section class="banner">
 
-    <img
-        src="images/banner.jpg"
-        alt="Lucban Integrated School">
+<img src="images/banner.jpg"
+alt="School Banner">
 
 </section>
-    <img src="images/logo.png"
-         alt="School Logo"
-         class="school-logo">
 
-    <h1>Lucban Integrated School</h1>
-
-    <h2>Teacher Resource Portal</h2>
-
-    <p>
-        One-stop portal for school forms, lesson plans,
-        memoranda, templates, learning resources,
-        and downloadable teaching materials.
-    </p>
-
-    <a href="#resourceList" class="browse-btn">
-        Browse Resources
-    </a>
-
-</section>
-    <button>Browse Resources</button>
-
-</section>
+<!-- Dashboard -->
 
 <section class="dashboard">
-    <section class="school-info">
+
+<div class="card">
+
+<h2 id="totalFiles">0</h2>
+
+<p>Total Resources</p>
+
+</div>
+
+<div class="card">
+
+<h2>6</h2>
+
+<p>Categories</p>
+
+</div>
+
+<div class="card">
+
+<h2>2026-2027</h2>
+
+<p>School Year</p>
+
+</div>
+
+</section>
+
+<!-- School Information -->
+
+<section class="school-info">
 
 <div>
 
@@ -94,9 +128,12 @@ Research
 
 <p>
 
-This portal provides teachers with easy access to downloadable
-school forms, templates, lesson plans, memoranda,
-research materials, and other educational resources.
+This portal provides teachers with easy access to school forms,
+templates,
+lesson plans,
+memoranda,
+research,
+and other educational resources.
 
 </p>
 
@@ -119,77 +156,76 @@ Schools Division of Baguio City
 </div>
 
 </section>
+
+<!-- Announcements -->
+
 <section class="announcements">
 
-    <div class="announcement-card">
+<div class="announcement-card">
 
-        <h2>📢 Announcements</h2>
+<h2>📢 Announcements</h2>
 
-        <ul>
-            <li>📅 School Year 2026–2027 has started.</li>
-            <li>📄 New School Forms are now available.</li>
-            <li>📝 Updated Anecdotal Record Template uploaded.</li>
-        </ul>
+<ul>
 
-    </div>
+<li>📅 School Year 2026–2027 has started.</li>
 
-    <div class="featured-card">
+<li>📄 New School Forms uploaded.</li>
 
-        <h2>⭐ Featured Resource</h2>
+<li>📝 Updated templates available.</li>
 
-        <h3>Anecdotal Record Template</h3>
+</ul>
 
-        <p>Download the latest editable Word template.</p>
+</div>
 
-        <a href="files/Anecdotal_Record_Template.docx"
-           class="download-btn"
-           download>
-           ⬇ Download
-        </a>
+<div class="featured-card">
 
-    </div>
+<h2>⭐ Featured Resource</h2>
 
-</section>
-    <div class="card">
-        <h2 id="totalFiles">0</h2>
-        <p>Total Resources</p>
-    </div>
+<h3>Anecdotal Record Template</h3>
 
-    <div class="card">
-        <h2>0</h2>
-        <p>Categories</p>
-    </div>
+<p>Download the latest editable template.</p>
 
-    <div class="card">
-        <h2>2026-2027</h2>
-        <p>School Year</p>
-    </div>
+<a href="files/Anecdotal_Record_Template.docx"
+class="download-btn"
+download>
+
+⬇ Download
+
+</a>
+
+</div>
 
 </section>
+
+<!-- Latest Resources -->
 
 <section class="latest">
 
-    <h2>Latest Resources</h2>
+<h2>Latest Resources</h2>
 
-    <input
-        id="search"
-        type="text"
-        placeholder="🔍 Search resources..."
-        class="search-box">
+<input
+id="search"
+class="search-box"
+placeholder="🔍 Search Resources...">
 
-    <br><br>
-
-    <div id="resourceList"></div>
+<div id="resourceList"></div>
 
 </section>
 
-<script src="script.js"></script>
-
 <footer>
 
-    © 2026 Lucban Integrated School - Teacher Resource Portal
+<h3>Lucban Integrated School</h3>
+
+<p>Teacher Resource Portal</p>
+
+<p>District VIII • Schools Division of Baguio City</p>
+
+<p>© 2026 All Rights Reserved</p>
 
 </footer>
 
+<script src="script.js"></script>
+
 </body>
+
 </html>
