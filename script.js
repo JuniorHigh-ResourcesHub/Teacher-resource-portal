@@ -92,3 +92,9 @@ searchInput.addEventListener("keyup",()=>{
 displayResources(searchInput.value);
 
 });
+
+sortSelect.addEventListener("change",()=>{
+
+displayResources(searchInput.value);
+
+});
